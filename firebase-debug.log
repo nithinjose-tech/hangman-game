@@ -1,0 +1,181 @@
+[debug] [2020-08-14T14:32:20.376Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:32:20.377Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-14T14:32:20.377Z] CLI Version:   8.7.0
+[debug] [2020-08-14T14:32:20.377Z] Platform:      win32
+[debug] [2020-08-14T14:32:20.377Z] Node Version:  v12.18.3
+[debug] [2020-08-14T14:32:20.378Z] Time:          Fri Aug 14 2020 20:02:20 GMT+0530 (India Standard Time)
+[debug] [2020-08-14T14:32:20.378Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:32:20.379Z] 
+[debug] [2020-08-14T14:32:20.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-14T14:32:20.384Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91701\Desktop\react-first\hangman
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-14T14:33:14.166Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-14T14:33:14.167Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-08-14T14:33:14.495Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 14 Aug 2020 14:33:15 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-14T14:33:14.513Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-14T14:33:35.554Z] Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2020-08-14T14:33:36.135Z] FirebaseError: Server Error. connect ETIMEDOUT 216.58.200.138:443
+    at Request._callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2020-08-14T14:34:35.707Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:34:35.709Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-14T14:34:35.709Z] CLI Version:   8.7.0
+[debug] [2020-08-14T14:34:35.709Z] Platform:      win32
+[debug] [2020-08-14T14:34:35.709Z] Node Version:  v12.18.3
+[debug] [2020-08-14T14:34:35.710Z] Time:          Fri Aug 14 2020 20:04:35 GMT+0530 (India Standard Time)
+[debug] [2020-08-14T14:34:35.710Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:34:35.710Z] 
+[debug] [2020-08-14T14:34:35.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-14T14:34:35.716Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91701\Desktop\react-first\hangman
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-14T14:34:51.031Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-14T14:35:31.331Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:35:31.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-14T14:35:31.333Z] CLI Version:   8.7.0
+[debug] [2020-08-14T14:35:31.333Z] Platform:      win32
+[debug] [2020-08-14T14:35:31.333Z] Node Version:  v12.18.3
+[debug] [2020-08-14T14:35:31.334Z] Time:          Fri Aug 14 2020 20:05:31 GMT+0530 (India Standard Time)
+[debug] [2020-08-14T14:35:31.334Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:35:31.334Z] 
+[debug] [2020-08-14T14:35:31.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-14T14:35:31.339Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91701\Desktop\react-first\hangman
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-08-14T14:36:02.433Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"hangman","name":"hangaman"}
+[debug] [2020-08-14T14:36:04.222Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 14 Aug 2020 14:36:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1246","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-14T14:36:04.222Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2020-08-14T14:36:04.582Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.<anonymous> (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at IncomingMessage.<anonymous> (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID hangman. Please try again with a unique project ID.
+[debug] [2020-08-14T14:36:45.285Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:36:45.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-14T14:36:45.286Z] CLI Version:   8.7.0
+[debug] [2020-08-14T14:36:45.287Z] Platform:      win32
+[debug] [2020-08-14T14:36:45.287Z] Node Version:  v12.18.3
+[debug] [2020-08-14T14:36:45.287Z] Time:          Fri Aug 14 2020 20:06:45 GMT+0530 (India Standard Time)
+[debug] [2020-08-14T14:36:45.288Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T14:36:45.288Z] 
+[debug] [2020-08-14T14:36:45.293Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-14T14:36:45.293Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91701\Desktop\react-first\hangman
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-08-14T14:37:23.513Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"hangman-game","name":"hangman-game"}
+[debug] [2020-08-14T14:37:25.012Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 14 Aug 2020 14:37:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1197","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-14T14:37:25.013Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2020-08-14T14:37:25.599Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.<anonymous> (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at IncomingMessage.<anonymous> (C:\Users\91701\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID hangman-game. Please try again with a unique project ID.
